@@ -1,0 +1,56 @@
+name: Collect WARN data and retain history
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      seed:
+        description: Import the preserved baseline before collection
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/collect.yml'
+permissions:
+  contents: write
+concurrency:
+  group: quiet-cuts-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+      SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+      COLLECTOR_TOKEN: ${{ secrets.COLLECTOR_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.13'
+      - name: Verify collector validation
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Import evidenced baseline
+        if: inputs.seed == true
+        run: python scripts/collect.py --seed
+      - name: Collect and archive validated sources
+        run: python scripts/collect.py
+      - name: Back up source evidence in Git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive validated agency evidence'
+            git push origin HEAD:main
+          fi
+      - name: Collection summary
+        if: always()
+        run: |
+          echo '## WARN data collection' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Validated snapshots and successful observations are stored in Supabase. Raw source changes are backed up in this repository.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'This workflow does not deploy the website. Failed collection leaves the last good snapshot available.' >> "$GITHUB_STEP_SUMMARY"

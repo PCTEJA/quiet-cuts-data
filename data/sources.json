@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ca",
+    "title": "California EDD \u00b7 WARN reports",
+    "url": "https://edd.ca.gov/warn",
+    "downloadUrl": "https://edd.ca.gov/siteassets/files/jobs_and_training/warn/warn_report1.xlsx",
+    "type": "Official records",
+    "note": "Current fiscal report; notice and processed dates are not first public posting dates."
+  },
+  {
+    "id": "ny",
+    "title": "New York DOL \u00b7 WARN dashboard",
+    "url": "https://dol.ny.gov/warn-dashboard",
+    "downloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
+    "type": "Official records",
+    "note": "Default current export; impacted-site rows. Listed Date Posted not verified as original posting."
+  },
+  {
+    "id": "wa",
+    "title": "Washington ESD \u00b7 WARN database",
+    "url": "https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-database",
+    "downloadUrl": "https://fortress.wa.gov/esd/file/WARN",
+    "type": "Official records",
+    "note": "First page only. Received Date is agency receipt, not public posting."
+  },
+  {
+    "id": "census",
+    "title": "U.S. Census Bureau \u00b7 Gazetteer files",
+    "url": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+    "type": "Official geography",
+    "note": "2026 place/county internal points; approximate locations, not employer addresses."
+  },
+  {
+    "id": "dol",
+    "title": "U.S. Department of Labor \u00b7 WARN",
+    "url": "https://www.dol.gov/agencies/eta/layoffs/warn",
+    "type": "Methodology reference",
+    "note": "Federal WARN overview; state rules and source coverage vary."
+  },
+  {
+    "id": "gdelt",
+    "title": "GDELT \u00b7 DOC 2.0 API documentation",
+    "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+    "type": "Research tool",
+    "note": "Candidate news discovery only; search results and GDELT timestamps require article-level validation. No matches have been reviewed in this snapshot."
+  }
+]
