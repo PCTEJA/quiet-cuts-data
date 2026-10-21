@@ -40,6 +40,10 @@ jobs:
       - name: Collect and archive validated sources
         run: python scripts/collect.py
       - name: Back up source evidence in Git
+        env:
+          # Attribute collected data to the project owner; retain the automation committer.
+          GIT_AUTHOR_NAME: PCTEJA
+          GIT_AUTHOR_EMAIL: 39472754+PCTEJA@users.noreply.github.com
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
