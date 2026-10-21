@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "retrievedDate": "2026-10-20",
+    "retrievedDate": "2026-10-21",
     "title": "Official WARN source snapshot",
     "counts": {
       "CA": 368,
@@ -28,7 +28,7 @@
       {
         "filename": "wa-db.txt",
         "url": "https://fortress.wa.gov/esd/file/WARN",
-        "sha256": "2aa84592d696ab1798134205836a2ff20858d482ad72d85a850d87ec87aa248d"
+        "sha256": "af510f510552da0626e98731e18e913266dbc7d2791af47a5a7eee87d1098802"
       },
       {
         "filename": "ny-csv.txt",
@@ -46,7 +46,7 @@
         "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
       }
     ],
-    "retrievedAt": "2026-10-20T17:07:49.201660+00:00"
+    "retrievedAt": "2026-10-21T19:21:12.501897+00:00"
   },
   "events": [
     {
@@ -19001,6 +19001,37 @@
     },
     {
       "state": "WA",
+      "company": "DSquared Hospitality Company dba Sidekicks Pub",
+      "workers": 83,
+      "address": "Bellevue",
+      "county": "",
+      "industry": "Unknown",
+      "receivedDate": "2026-10-21",
+      "noticeDate": null,
+      "processedDate": null,
+      "postedDate": null,
+      "listedPostedDate": null,
+      "effectiveDate": "2026-12-20",
+      "newsStatus": "unreviewed",
+      "newsUrl": null,
+      "firstNewsDate": null,
+      "latencyDays": null,
+      "evidenceType": "official",
+      "city": "Bellevue",
+      "lat": 47.597425,
+      "lon": -122.157467,
+      "coordinatePrecision": "Census place internal point; approximate region, not worksite",
+      "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+      "geographyName": "Bellevue city",
+      "geographyId": "5305210",
+      "id": "WA-0432fc60-2bd5-4f50-bcf0-0139b4f76f16",
+      "eventType": "Closure Permanent",
+      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=0432fc60-2bd5-4f50-bcf0-0139b4f76f16.pdf&download=1",
+      "sourceTitle": "Washington ESD WARN public notice",
+      "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
+    },
+    {
+      "state": "WA",
       "company": "Starbucks",
       "workers": 51,
       "address": "Seattle, Redmond, Vancouver, and Spokane",
@@ -19424,37 +19455,6 @@
       "id": "WA-df0e27c2-734c-4579-bcb1-506404789945",
       "eventType": "Closure Permanent",
       "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=df0e27c2-734c-4579-bcb1-506404789945.pdf&download=1",
-      "sourceTitle": "Washington ESD WARN public notice",
-      "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
-    },
-    {
-      "state": "WA",
-      "company": "Maverick Washington LLC / Crazy Moose Casino",
-      "workers": 137,
-      "address": "Pasco",
-      "county": "",
-      "industry": "Unknown",
-      "receivedDate": "2026-09-28",
-      "noticeDate": null,
-      "processedDate": null,
-      "postedDate": null,
-      "listedPostedDate": null,
-      "effectiveDate": "2026-11-30",
-      "newsStatus": "unreviewed",
-      "newsUrl": null,
-      "firstNewsDate": null,
-      "latencyDays": null,
-      "evidenceType": "official",
-      "city": "Pasco",
-      "lat": 46.266113,
-      "lon": -119.121426,
-      "coordinatePrecision": "Census place internal point; approximate region, not worksite",
-      "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
-      "geographyName": "Pasco city",
-      "geographyId": "5353545",
-      "id": "WA-354e8382-eac2-49e8-a180-def2b092eeab",
-      "eventType": "Closure Permanent",
-      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=354e8382-eac2-49e8-a180-def2b092eeab.pdf&download=1",
       "sourceTitle": "Washington ESD WARN public notice",
       "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
     }
