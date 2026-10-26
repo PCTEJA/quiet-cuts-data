@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "retrievedDate": "2026-10-23",
+    "retrievedDate": "2026-10-26",
     "title": "Official WARN source snapshot",
     "counts": {
       "CA": 390,
@@ -28,7 +28,7 @@
       {
         "filename": "wa-db.txt",
         "url": "https://fortress.wa.gov/esd/file/WARN",
-        "sha256": "5e26369ec8b0f24fec9aa8dd757683c544d4005e302fe567f7ad1c43a2630864"
+        "sha256": "ae45fe12895fa11854182da87ac2c999b5f182827c57c8f5de88df34a7c77978"
       },
       {
         "filename": "ny-csv.txt",
@@ -46,7 +46,7 @@
         "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
       }
     ],
-    "retrievedAt": "2026-10-23T22:14:19.793122+00:00"
+    "retrievedAt": "2026-10-26T19:21:02.617526+00:00"
   },
   "events": [
     {
@@ -19945,9 +19945,9 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Pasco city",
       "geographyId": "5353545",
-      "id": "WA-df3f7a2d-05ba-4225-8ad0-50c71fe5c13a",
+      "id": "WA-06fd3a45-2bd2-437f-aff8-eeaac2a07aea",
       "eventType": "Layoff Permanent",
-      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=df3f7a2d-05ba-4225-8ad0-50c71fe5c13a.pdf&download=1",
+      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=06fd3a45-2bd2-437f-aff8-eeaac2a07aea.pdf&download=1",
       "sourceTitle": "Washington ESD WARN public notice",
       "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
     },
