@@ -13,7 +13,7 @@ Amazon (Long Island),2026-04-28,2026-01-27,2026-02-24,"3620 Long Beach Rd  Ocean
 Amazon (Long Island),2026-04-28,2026-01-27,2026-02-24,"4054 Nesconset Highway  East Setauket, NY, 11733",Suffolk,Closure,Permanent,Economic,30,44,44
 Amazon (Western),2026-05-30,2026-02-27,2026-03-17,"4201 Walden Ave  Lancaster, NY, 14086",Erie,Closure,Permanent,Economic,27,542,542
 Apple Bank,2026-08-31,2026-04-30,2026-07-24,"1075 Central Park Ave  Scarsdale, NY, 10583",Westchester,Layoff,Permanent,Other,9,26,26
-"AVI Foodsystems, Inc.",2026-05-31,2026-05-08,2026-05-26,"1 Saxon Drive  Alfred, NY, 14802",Allegany,Closure,Permanent,Contract Loss,8,45,45
+"AVI Foodsystems, Inc.",2026-05-31,2026-05-08,2026-05-26,"1 Saxon Drive  Alfred, NY, 14802",Allegany,Closure,Permanent,Contract Loss,7,45,45
 Bank of America,2026-06-24,2026-03-19,2026-04-06,"611 Jamison Road, STE 1275  Elma, NY, 14059",Erie,Closure,Permanent,Expiration of Lease,3,170,170
 "BMC Benchmark Management Company, LLC. (Edith Macy Center Hotel)",2026-04-30,2026-01-29,2026-03-25,"550 Chappaqua Road  Briarcliff Manor, NY, 10510",Westchester,Closure,Permanent,Sale of Business,8,49,49
 "Bowery F&B, LLC",2026-12-21,2026-09-17,2026-10-19,"335 Bowery  New York, NY, 10003",New York,Closure,Permanent,Economic,4,28,28
@@ -41,8 +41,8 @@ Children's Home of Poughkeepsie,2026-12-28,2026-09-24,2026-09-30,"10 Children's 
 DF NY One Inc. d/b/a Dreamfields,2026-03-13,2026-03-02,2026-03-25,"1050 Lower South Street  Peekskill, NY, 10566",Westchester,Layoff,Permanent,Contract Loss Funding Loss,1,13,13
 "Diageo North America, Inc",2026-09-30,2026-06-30,2026-08-21,"3 World Trade Center 175 Greenwich St New York, NY, 10007",New York,Layoff,Permanent,Economic,15,305,305
 Dice Lion Technology LLC,2026-06-15,2026-03-17,2026-04-29,"132 West 31st Street 9th Floor New York, NY, 10001",New York,Layoff,Permanent,Other,31,37,37
-"Durham School Services, LP./Monroe School Transportation, Inc.",2026-07-12,2026-04-21,2026-04-27,"970 Emmerson Street  Rochester, NY, 14606",Monroe,Closure,Permanent,Contract Loss,12,180,180
-"Durham School Services, LP./Monroe School Transportation, Inc.",2026-07-12,2026-04-13,2026-04-27,"2721 2nd Ave  Watervliet, NY, 12189",Albany,Closure,Permanent,Contract Loss,13,78,78
+"Durham School Services, LP./Monroe School Transportation, Inc.",2026-07-12,2026-04-21,2026-04-27,"970 Emmerson Street  Rochester, NY, 14606",Monroe,Closure,Permanent,Contract Loss,11,180,180
+"Durham School Services, LP./Monroe School Transportation, Inc.",2026-07-12,2026-04-13,2026-04-27,"2721 2nd Ave  Watervliet, NY, 12189",Albany,Closure,Permanent,Contract Loss,12,78,78
 "Elevate NY, LLC.",2026-05-06,2026-01-27,2026-03-18,"400 Rella Blvd. Suite 212 Montebello, NY, 10901",Rockland,Layoff,Permanent,Other,39,99,99
 Enthuse LLC,2026-03-10,2026-03-03,2026-04-08,"31 Hudson Yards Fl. 11 New York, NY, 10001",New York,Closure,Permanent,Contract Termination,61,13,13
 "Etain, LLC.",2026-08-03,2026-05-05,2026-10-23,"6030-6032 US-9  Chestertown, NY, 12817",Warren,Closure,Permanent,Economic,2,0,0
@@ -124,17 +124,16 @@ Jennie B. Richmond Nursing Home,2026-08-31,2026-06-02,2026-06-18,"222 East Main 
 "Knight Facilities Management, Inc.",2026-04-30,2026-04-22,2026-06-29,"Pure Fitness - Yonkers 8000 Mall Walk Yonkers, NY, 10704",Westchester,Closure,Permanent,Contract Termination,53,2,2
 Krispy Kreme Doughnut Corporation,2026-04-30,2026-01-27,2026-04-14,"535 Havemeyer Avenue  Bronx, NY, 10473",Bronx,Layoff,Permanent,Other,36,52,52
 Liberty Dental Plan Corporation,2026-05-06,2026-02-05,2026-03-24,"50 Charles Lindbergh Blvd Suite 504 Uniondale, NY, 11553",Nassau,Layoff,Permanent,Other,38,2,2
-Lincoln Hall,2026-04-06,2026-01-06,2026-01-14,"115 US-202  Lincolndale, NY, 10540",Westchester,Closure,Permanent,Contract Loss,18,123,123
+Lincoln Hall,2026-04-06,2026-01-06,2026-01-14,"115 US-202  Lincolndale, NY, 10540",Westchester,Closure,Permanent,Contract Loss,17,123,123
 Lumina Care Medical Staff,2026-11-03,2026-08-04,2026-10-02,"885 3rd Avenue FL28 885 3rd Avenue FL28 New York, NY, 10022",New York,Layoff,Permanent,Other,4,135,135
-Lutheran Social Services of New York,2026-06-30,2026-04-01,2026-05-13,"314 Pennsylvania Avenue  Brooklyn, NY, 11207",Kings,Closure,Permanent,Contract Loss,9,20,20
+Lutheran Social Services of New York,2026-06-30,2026-04-01,2026-05-13,"314 Pennsylvania Avenue  Brooklyn, NY, 11207",Kings,Closure,Permanent,Contract Loss,8,20,20
 Lutheran Social Services of New York,2026-03-31,2026-01-29,2026-07-07,"545 East 166th Street  Bronx, NY, 10456",Bronx,Layoff,Permanent,Contract Expiration,2,37,37
-Lutheran Social Services of New York,2026-06-30,2026-04-01,2026-05-13,"1668 Eastern Parkway  Brooklyn, NY, 11233",Kings,Closure,Permanent,Contract Loss,10,30,30
+Lutheran Social Services of New York,2026-06-30,2026-04-01,2026-05-13,"1668 Eastern Parkway  Brooklyn, NY, 11233",Kings,Closure,Permanent,Contract Loss,9,30,30
 Lutheran Social Services of New York,2026-03-31,2026-01-29,2026-07-07,"2865 Kingsbridge Terrace  Bronx, NY, 10463",Bronx,Layoff,Permanent,Contract Expiration,3,20,20
-Lutheran Social Services of New York,2026-06-30,2026-04-01,2026-05-13,"2927 40th Road  Queens, NY, 11101",Queens,Closure,Permanent,Contract Loss,11,38,38
+Lutheran Social Services of New York,2026-06-30,2026-04-01,2026-05-13,"2927 40th Road  Queens, NY, 11101",Queens,Closure,Permanent,Contract Loss,10,38,38
 "Main Street Sports Group, LLC",2026-05-14,2026-02-13,2026-04-10,"1350 Broadway Suite 720 New York, NY, 10018",New York,Closure,Permanent,Sale of Business,7,66,66
 Masonite Corporation d/b/a Owens Corning Doors,2026-11-23,2026-08-25,2026-09-08,"970 US-11  Kirkwood, NY, 13795",Broome,Closure,Permanent,Other,6,46,46
-"Maximus, Inc.",2026-06-30,2026-03-31,2026-07-24,"3750 Monroe Ave, Suite 700  Pittsford, NY, 14534",Monroe,Layoff,Permanent,Contract Loss,6,176,176
-McKesson,2026-05-18,2026-02-10,2026-04-09,"2700 North America Avenue  West Seneca, NY, 14224",Erie,Closure,Permanent,Contract Loss,14,78,78
+McKesson,2026-05-18,2026-02-10,2026-04-09,"2700 North America Avenue  West Seneca, NY, 14224",Erie,Closure,Permanent,Contract Loss,13,78,78
 "Medical Care at Home, P.C.",2026-07-24,2026-04-27,2026-05-19,"220 E 42nd St  New York, NY, 10017",New York,Closure,Permanent,Other,27,28,28
 "Mezz57th, LLC",2026-12-23,2026-09-08,2026-10-22,"36 East 57th Street Floor 1 M New York, NY, 10022",New York,Closure,Permanent,Economic,3,71,71
 "Miller's Ale House, Inc.",2026-09-26,2026-08-24,2026-09-15,"2883 Richmond Avenue  Staten Island, NY, 10314",Richmond,Closure,Permanent,Other,5,25,25
@@ -159,7 +158,7 @@ One Moment Logistics Inc.,2026-07-17,2026-07-07,2026-09-28,"120 Benson Place  Fr
 "Oswego Beverage Company, LLC.",2026-08-28,2026-05-29,2026-07-02,"1043 County Route 25  Oswego, NY, 13126",Oswego,Closure,Permanent,Sale of Business,5,59,59
 "Oswego Beverage Company, LLC.",2026-08-28,2026-05-29,2026-07-02,"20783 Alexander Drive  Watertown, NY, 13601",Jefferson,Closure,Permanent,Sale of Business,4,42,42
 "PharmaCann, Inc.",2026-06-20,2026-03-20,2026-04-17,"14 Hudson Crossing Drive  Hamptonburgh, NY, 12549",Orange,Closure,Permanent,Other,34,130,130
-"Piedmont Airlines, Inc.",2026-09-10,2026-06-12,2026-07-22,"1000 Col. Eileen Collins Blvd.  Syracuse, NY, 13212",Onondaga,Closure,Permanent,Contract Loss,7,88,88
+"Piedmont Airlines, Inc.",2026-09-10,2026-06-12,2026-07-22,"1000 Col. Eileen Collins Blvd.  Syracuse, NY, 13212",Onondaga,Closure,Permanent,Contract Loss,6,88,88
 Pinnacle Managing Co LLC,2026-04-30,2026-02-20,2026-05-28,"140 East 45th Street 12th Floor New York, NY, 10017",New York,Closure,Permanent,Bankruptcy Economic,1,64,64
 "Pomonok Home Services, Inc.",2026-10-08,2026-07-09,2026-07-27,"61-34 188th Street Suite 219 Fresh Meadows, NY, 11365",Queens,Closure,Permanent,Other,8,226,226
 "PT OPCO, LLC d/b/a Pink Taco",2026-02-18,2026-02-17,2026-04-02,"7 Times Square  NEW YORK, NY, 10036",New York,Closure,Permanent,Economic,26,36,36
@@ -183,9 +182,9 @@ Saks & Company LLC,2026-05-01,2026-04-30,2026-05-21,"611 Fifth Avenue  New York,
 Saks & Company LLC,2026-05-01,2026-04-30,2026-05-21,"620 Old Country Road  Garden City, NY, 11530",Nassau,Closure,Permanent,Bankruptcy,3,2,2
 Saks & Company LLC,2026-05-01,2026-04-30,2026-05-21,"754 5th Ave  New York, NY, 10019",New York,Closure,Permanent,Bankruptcy,6,8,8
 "Sardi's Enterprises, Ltd.",2026-06-24,2026-03-25,2026-04-16,"234 W. 44th Street  New York, NY, 10036",New York,Closure,Permanent,Sale of Business,6,62,62
-"SDH Education West, LLC d/b/a Sodexo - Binghamton University",2026-05-31,2026-02-26,2026-03-16,"40-48 Corliss Ave  Johnson City, NY, 13790",Broome,Closure,Permanent,Contract Loss,15,3,3
-"SDH Education West, LLC d/b/a Sodexo - Binghamton University",2026-05-31,2026-02-26,2026-03-16,"4400 Vestal Pkwy East UU116  Binghamton, NY, 13902",Broome,Closure,Permanent,Contract Loss,16,144,144
-"SDH Education West, LLC d/b/a Sodexo - Binghamton University",2026-05-31,2026-02-26,2026-03-16,"6000 Vestal Pkwy East  Binghamton, NY, 13901",Broome,Closure,Permanent,Contract Loss,17,542,542
+"SDH Education West, LLC d/b/a Sodexo - Binghamton University",2026-05-31,2026-02-26,2026-03-16,"40-48 Corliss Ave  Johnson City, NY, 13790",Broome,Closure,Permanent,Contract Loss,14,3,3
+"SDH Education West, LLC d/b/a Sodexo - Binghamton University",2026-05-31,2026-02-26,2026-03-16,"4400 Vestal Pkwy East UU116  Binghamton, NY, 13902",Broome,Closure,Permanent,Contract Loss,15,144,144
+"SDH Education West, LLC d/b/a Sodexo - Binghamton University",2026-05-31,2026-02-26,2026-03-16,"6000 Vestal Pkwy East  Binghamton, NY, 13901",Broome,Closure,Permanent,Contract Loss,16,542,542
 Seaport Entertainment Management LLC,2026-02-23,2026-02-23,2026-03-06,"96 South Street  New York, NY, 10038",New York,Closure,Permanent,Economic,28,93,93
 "Sky Chefs, LLC",2026-10-07,2026-08-04,2026-08-18,"JFK International Airport 139 West Hangar Road Jamaica, NY, 11430",Queens,Layoff,Permanent,Contract Loss,5,471,471
 "Sparus Holdings, LLC. & Southern Cross, LLC",2026-06-30,2026-03-31,2026-04-23,"50 Prospect Avenue  Tarrytown, NY, 10591",Westchester,Layoff,Permanent,Contract Expiration,5,19,19
