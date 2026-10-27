@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "retrievedDate": "2026-10-26",
+    "retrievedDate": "2026-10-27",
     "title": "Official WARN source snapshot",
     "counts": {
       "CA": 390,
-      "NY": 213,
+      "NY": 215,
       "WA": 15
     },
-    "totalRecords": 618,
+    "totalRecords": 620,
     "unit": "Source records / impacted sites; not deduplicated unique layoff events",
     "sampling": "CA: all detailed rows in current fiscal report; NY: default current dashboard CSV export; WA: first page of current database. These are different observation windows, not a representative comparative sample.",
     "caveats": [
@@ -28,12 +28,12 @@
       {
         "filename": "wa-db.txt",
         "url": "https://fortress.wa.gov/esd/file/WARN",
-        "sha256": "ae45fe12895fa11854182da87ac2c999b5f182827c57c8f5de88df34a7c77978"
+        "sha256": "fb959ec98d2808b0a2683692284445aa044755397cc438a4866dfa16f068a4d0"
       },
       {
         "filename": "ny-csv.txt",
         "url": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
-        "sha256": "8433c9384de13086c7b3f0527445a9f2dd65a720407f566a77b0fc1ec68be44d"
+        "sha256": "b51c88c403eba7efbb5f523acc9dfb92743318cfd51e01bea72ac298f14ac99d"
       },
       {
         "filename": "places.zip",
@@ -46,7 +46,7 @@
         "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
       }
     ],
-    "retrievedAt": "2026-10-26T19:21:02.617526+00:00"
+    "retrievedAt": "2026-10-27T16:40:33.622539+00:00"
   },
   "events": [
     {
@@ -19263,6 +19263,40 @@
     },
     {
       "state": "NY",
+      "company": "The Goodyear Tire and Rubber Company",
+      "workers": 51,
+      "address": "5500 Goodyear Drive Niagara Falls, NY, 14304",
+      "county": "Niagara",
+      "industry": "Unknown",
+      "receivedDate": null,
+      "noticeDate": "2026-10-01",
+      "processedDate": null,
+      "postedDate": null,
+      "listedPostedDate": "2026-10-26",
+      "effectiveDate": "2026-12-30",
+      "newsStatus": "unreviewed",
+      "newsUrl": null,
+      "firstNewsDate": null,
+      "latencyDays": null,
+      "evidenceType": "official",
+      "city": "Niagara Falls",
+      "lat": 43.092841,
+      "lon": -79.014743,
+      "coordinatePrecision": "Census place internal point; approximate region, not worksite",
+      "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+      "geographyName": "Niagara Falls city",
+      "geographyId": "3651055",
+      "id": "NY-200",
+      "eventType": "Closure Permanent",
+      "reason": "Economic",
+      "sourceUrl": "https://dol.ny.gov/warn-dashboard",
+      "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
+      "sourceTitle": "New York DOL WARN dashboard export",
+      "sourceRow": 200,
+      "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
+    },
+    {
+      "state": "NY",
       "company": "The Rockefeller University",
       "workers": 27,
       "address": "1230 York Avenue New York, NY, 10065",
@@ -19286,13 +19320,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "New York city",
       "geographyId": "3651000",
-      "id": "NY-200",
+      "id": "NY-201",
       "eventType": "Closure Permanent",
       "reason": "Relocation of Business",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 200,
+      "sourceRow": 201,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19320,13 +19354,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "New York city",
       "geographyId": "3651000",
-      "id": "NY-201",
+      "id": "NY-202",
       "eventType": "Layoff Permanent",
       "reason": "Economic Funding Loss",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 201,
+      "sourceRow": 202,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19354,13 +19388,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Cohoes city",
       "geographyId": "3616749",
-      "id": "NY-202",
+      "id": "NY-203",
       "eventType": "Closure Permanent",
       "reason": "Economic",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 202,
+      "sourceRow": 203,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19388,13 +19422,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Schenectady County",
       "geographyId": "36093",
-      "id": "NY-203",
+      "id": "NY-204",
       "eventType": "Closure Permanent",
       "reason": "Expiration of Lease",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 203,
+      "sourceRow": 204,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19422,13 +19456,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "New York city",
       "geographyId": "3651000",
-      "id": "NY-204",
+      "id": "NY-205",
       "eventType": "Closure Permanent",
       "reason": "Merger",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 204,
+      "sourceRow": 205,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19456,13 +19490,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Albany County",
       "geographyId": "36001",
-      "id": "NY-205",
+      "id": "NY-206",
       "eventType": "Closure Permanent",
       "reason": "Funding Loss",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 205,
+      "sourceRow": 206,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19490,13 +19524,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "New York city",
       "geographyId": "3651000",
-      "id": "NY-206",
+      "id": "NY-207",
       "eventType": "Closure Permanent",
       "reason": "Other",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 206,
+      "sourceRow": 207,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19524,13 +19558,47 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Rochester city",
       "geographyId": "3663000",
-      "id": "NY-207",
+      "id": "NY-208",
       "eventType": "Layoff Permanent",
       "reason": "Contract Termination",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 207,
+      "sourceRow": 208,
+      "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
+    },
+    {
+      "state": "NY",
+      "company": "Urban Resource Institute",
+      "workers": 8,
+      "address": "38-60 13th Street Queens, NY, 11101",
+      "county": "Queens",
+      "industry": "Unknown",
+      "receivedDate": null,
+      "noticeDate": "2026-04-01",
+      "processedDate": null,
+      "postedDate": null,
+      "listedPostedDate": "2026-10-26",
+      "effectiveDate": "2026-06-30",
+      "newsStatus": "unreviewed",
+      "newsUrl": null,
+      "firstNewsDate": null,
+      "latencyDays": null,
+      "evidenceType": "official",
+      "city": "Queens",
+      "lat": 40.654658,
+      "lon": -73.841209,
+      "coordinatePrecision": "Census county internal point; approximate region, not worksite",
+      "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+      "geographyName": "Queens County",
+      "geographyId": "36081",
+      "id": "NY-209",
+      "eventType": "Closure Permanent",
+      "reason": "Contract Termination Funding Loss",
+      "sourceUrl": "https://dol.ny.gov/warn-dashboard",
+      "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
+      "sourceTitle": "New York DOL WARN dashboard export",
+      "sourceRow": 209,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19558,13 +19626,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Bohemia CDP",
       "geographyId": "3607157",
-      "id": "NY-208",
+      "id": "NY-210",
       "eventType": "Layoff Permanent",
       "reason": "Contract Loss",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 208,
+      "sourceRow": 210,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19592,13 +19660,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Pelham village",
       "geographyId": "3657001",
-      "id": "NY-209",
+      "id": "NY-211",
       "eventType": "Layoff Permanent",
       "reason": "Contract Termination",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 209,
+      "sourceRow": 211,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19626,13 +19694,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Lockport city",
       "geographyId": "3643082",
-      "id": "NY-210",
+      "id": "NY-212",
       "eventType": "Closure Permanent",
       "reason": "Economic",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 210,
+      "sourceRow": 212,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19660,13 +19728,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Albany city",
       "geographyId": "3601000",
-      "id": "NY-211",
+      "id": "NY-213",
       "eventType": "Closure Permanent",
       "reason": "Building Renovations",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 211,
+      "sourceRow": 213,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19694,13 +19762,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "New York city",
       "geographyId": "3651000",
-      "id": "NY-212",
+      "id": "NY-214",
       "eventType": "Layoff Permanent",
       "reason": "Other",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 212,
+      "sourceRow": 214,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19728,13 +19796,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "Rochester city",
       "geographyId": "3663000",
-      "id": "NY-213",
+      "id": "NY-215",
       "eventType": "Closure Permanent",
       "reason": "Funding Loss",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 213,
+      "sourceRow": 215,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
@@ -19762,13 +19830,13 @@
       "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
       "geographyName": "New York city",
       "geographyId": "3651000",
-      "id": "NY-214",
+      "id": "NY-216",
       "eventType": "Layoff Permanent",
       "reason": "Other",
       "sourceUrl": "https://dol.ny.gov/warn-dashboard",
       "sourceDownloadUrl": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
       "sourceTitle": "New York DOL WARN dashboard export",
-      "sourceRow": 214,
+      "sourceRow": 216,
       "sourceDateSemantics": "Date Posted is preserved as listedPostedDate. Whether it is the first/original posting has not been verified, so postedDate and latency remain null. Each row is an impacted site, not necessarily a unique company notice."
     },
     {
