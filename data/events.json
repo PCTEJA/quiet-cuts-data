@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "retrievedDate": "2026-10-27",
+    "retrievedDate": "2026-10-28",
     "title": "Official WARN source snapshot",
     "counts": {
       "CA": 397,
@@ -28,7 +28,7 @@
       {
         "filename": "wa-db.txt",
         "url": "https://fortress.wa.gov/esd/file/WARN",
-        "sha256": "600b649522f6124f45659739986124ae82f4deef1fe1e988ae8c435e803eab1b"
+        "sha256": "ac082a97914213403ff2121fda277e7b3ab54f54705fa7b0763c4541ae3f02f3"
       },
       {
         "filename": "ny-csv.txt",
@@ -46,7 +46,7 @@
         "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
       }
     ],
-    "retrievedAt": "2026-10-27T21:20:45.427352+00:00"
+    "retrievedAt": "2026-10-28T16:03:57.089193+00:00"
   },
   "events": [
     {
@@ -20062,7 +20062,7 @@
     },
     {
       "state": "WA",
-      "company": "Starbucks",
+      "company": "HMS Host",
       "workers": 135,
       "address": "Seatac, Seattle",
       "county": "",
