@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "retrievedDate": "2026-10-29",
+    "retrievedDate": "2026-11-03",
     "title": "Official WARN source snapshot",
     "counts": {
       "CA": 404,
@@ -28,7 +28,7 @@
       {
         "filename": "wa-db.txt",
         "url": "https://fortress.wa.gov/esd/file/WARN",
-        "sha256": "5fd4023fc8f71153b12bb7d630e23fa211899d921acec8526990619bd2006eba"
+        "sha256": "691efa0a23d4a49c2768d0dd61f83247f9af44e47fc52af99713d30ca74e5edf"
       },
       {
         "filename": "ny-csv.txt",
@@ -46,7 +46,7 @@
         "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
       }
     ],
-    "retrievedAt": "2026-10-29T20:19:12.308459+00:00"
+    "retrievedAt": "2026-11-03T06:48:59.290850+00:00"
   },
   "events": [
     {
@@ -20255,6 +20255,34 @@
     },
     {
       "state": "WA",
+      "company": "Alaska Airlines",
+      "workers": 121,
+      "address": "Seattle, Spokane, Renton",
+      "county": "",
+      "industry": "Unknown",
+      "receivedDate": "2026-10-30",
+      "noticeDate": null,
+      "processedDate": null,
+      "postedDate": null,
+      "listedPostedDate": null,
+      "effectiveDate": "2026-12-31",
+      "newsStatus": "unreviewed",
+      "newsUrl": null,
+      "firstNewsDate": null,
+      "latencyDays": null,
+      "evidenceType": "official",
+      "city": "Seattle, Spokane, Renton",
+      "lat": null,
+      "lon": null,
+      "coordinatePrecision": "Multiple locations; workers not allocated to cities; not plotted",
+      "id": "WA-8dbddda5-1e4e-43bb-9cd6-529acd3d4df6",
+      "eventType": "Layoff Permanent",
+      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=8dbddda5-1e4e-43bb-9cd6-529acd3d4df6.pdf&download=1",
+      "sourceTitle": "Washington ESD WARN public notice",
+      "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
+    },
+    {
+      "state": "WA",
       "company": "Comcast",
       "workers": 159,
       "address": "Statewide",
@@ -20672,37 +20700,6 @@
       "id": "WA-67e8893d-53a9-493e-9fce-0dee38c16262",
       "eventType": "Layoff Temporary",
       "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=67e8893d-53a9-493e-9fce-0dee38c16262.pdf&download=1",
-      "sourceTitle": "Washington ESD WARN public notice",
-      "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
-    },
-    {
-      "state": "WA",
-      "company": "Maverick Washington LLC / Chips Casino",
-      "workers": 131,
-      "address": "Lakewood",
-      "county": "",
-      "industry": "Unknown",
-      "receivedDate": "2026-09-28",
-      "noticeDate": null,
-      "processedDate": null,
-      "postedDate": null,
-      "listedPostedDate": null,
-      "effectiveDate": "2026-11-30",
-      "newsStatus": "unreviewed",
-      "newsUrl": null,
-      "firstNewsDate": null,
-      "latencyDays": null,
-      "evidenceType": "official",
-      "city": "Lakewood",
-      "lat": 47.164092,
-      "lon": -122.528106,
-      "coordinatePrecision": "Census place internal point; approximate region, not worksite",
-      "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
-      "geographyName": "Lakewood city",
-      "geographyId": "5338038",
-      "id": "WA-626263fe-26d7-4818-8a62-2de1ba9c828d",
-      "eventType": "Closure Permanent",
-      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=626263fe-26d7-4818-8a62-2de1ba9c828d.pdf&download=1",
       "sourceTitle": "Washington ESD WARN public notice",
       "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
     }
