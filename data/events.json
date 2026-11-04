@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "retrievedDate": "2026-11-03",
+    "retrievedDate": "2026-11-04",
     "title": "Official WARN source snapshot",
     "counts": {
       "CA": 433,
@@ -28,7 +28,7 @@
       {
         "filename": "wa-db.txt",
         "url": "https://fortress.wa.gov/esd/file/WARN",
-        "sha256": "cab1b8fa4036385642b5bb882d3631ae76f6802c5bda2d408ad31a76e9b84826"
+        "sha256": "880aa77ae58e50c83994b26900b8fb44b06e55b29e1984eea24ba5d274c22c1f"
       },
       {
         "filename": "ny-csv.txt",
@@ -46,7 +46,7 @@
         "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
       }
     ],
-    "retrievedAt": "2026-11-03T21:00:28.236737+00:00"
+    "retrievedAt": "2026-11-04T23:40:08.054187+00:00"
   },
   "events": [
     {
@@ -21183,6 +21183,37 @@
     },
     {
       "state": "WA",
+      "company": "Seattle Marriott Redmond",
+      "workers": 91,
+      "address": "Redmond",
+      "county": "",
+      "industry": "Unknown",
+      "receivedDate": "2026-11-04",
+      "noticeDate": null,
+      "processedDate": null,
+      "postedDate": null,
+      "listedPostedDate": null,
+      "effectiveDate": "2027-01-05",
+      "newsStatus": "unreviewed",
+      "newsUrl": null,
+      "firstNewsDate": null,
+      "latencyDays": null,
+      "evidenceType": "official",
+      "city": "Redmond",
+      "lat": 47.677924,
+      "lon": -122.115336,
+      "coordinatePrecision": "Census place internal point; approximate region, not worksite",
+      "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+      "geographyName": "Redmond city",
+      "geographyId": "5357535",
+      "id": "WA-6b2e777f-eb94-4a4a-a74f-bb6b2aec6ddc",
+      "eventType": "Closure Permanent",
+      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=6b2e777f-eb94-4a4a-a74f-bb6b2aec6ddc.pdf&download=1",
+      "sourceTitle": "Washington ESD WARN public notice",
+      "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
+    },
+    {
+      "state": "WA",
       "company": "Amazon",
       "workers": 95,
       "address": "Sumner, Pasco, Bellevue, Redmond, Seattle and Remote",
@@ -21594,37 +21625,6 @@
       "id": "WA-41d6c2c9-b6d0-4034-b9e1-90afade62a92",
       "eventType": "Layoff Permanent",
       "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=41d6c2c9-b6d0-4034-b9e1-90afade62a92.pdf&download=1",
-      "sourceTitle": "Washington ESD WARN public notice",
-      "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
-    },
-    {
-      "state": "WA",
-      "company": "Haak Administrative Services LLC",
-      "workers": 110,
-      "address": "Yakima County",
-      "county": "Yakima County",
-      "industry": "Unknown",
-      "receivedDate": "2026-09-29",
-      "noticeDate": null,
-      "processedDate": null,
-      "postedDate": null,
-      "listedPostedDate": null,
-      "effectiveDate": "2026-11-30",
-      "newsStatus": "unreviewed",
-      "newsUrl": null,
-      "firstNewsDate": null,
-      "latencyDays": null,
-      "evidenceType": "official",
-      "city": "Yakima County",
-      "lat": 46.456558,
-      "lon": -120.740145,
-      "coordinatePrecision": "Census county internal point; approximate region, not worksite",
-      "coordinateSource": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
-      "geographyName": "Yakima County",
-      "geographyId": "53077",
-      "id": "WA-75cba37b-fcfd-453c-abf0-d27ebe3ccea3",
-      "eventType": "Layoff Permanent",
-      "sourceUrl": "https://fortress.wa.gov/esd/file/WARN/Public/DownloadFile.aspx?file=75cba37b-fcfd-453c-abf0-d27ebe3ccea3.pdf&download=1",
       "sourceTitle": "Washington ESD WARN public notice",
       "sourceDateSemantics": "Received Date is agency receipt, not first public posting. Multi-city notices are not split or allocated to cities; unresolved multi-location notices are not plotted."
     }
