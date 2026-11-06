@@ -28,12 +28,12 @@
       {
         "filename": "wa-db.txt",
         "url": "https://fortress.wa.gov/esd/file/WARN",
-        "sha256": "0779d4553ca0da85b035d81694822e22e773278a2f7cdf5405b36283fd149e01"
+        "sha256": "9b424f37eb9403f6c2bf3ebfb1c84d1c6d47abf728edb7b85be332a3aab845ce"
       },
       {
         "filename": "ny-csv.txt",
         "url": "https://public.tableau.com/views/WorkerAdjustmentRetrainingNotificationWARN/WARN.csv?:showVizHome=no",
-        "sha256": "e2945331ce36f3a88dce8d754fdd19e31da2596e3ca042e92b63b6559c26420d"
+        "sha256": "20c2d2ae037767bb5875226de22d1501ca5845fea03edb4f9262fb6f8abaf8b8"
       },
       {
         "filename": "places.zip",
@@ -46,7 +46,7 @@
         "sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a"
       }
     ],
-    "retrievedAt": "2026-11-06T02:27:11.429269+00:00"
+    "retrievedAt": "2026-11-06T17:58:10.701740+00:00"
   },
   "events": [
     {
@@ -17062,7 +17062,7 @@
       "noticeDate": "2026-08-28",
       "processedDate": null,
       "postedDate": null,
-      "listedPostedDate": "2026-10-08",
+      "listedPostedDate": "2026-11-06",
       "effectiveDate": "2026-11-27",
       "newsStatus": "unreviewed",
       "newsUrl": null,
@@ -17096,7 +17096,7 @@
       "noticeDate": "2026-08-28",
       "processedDate": null,
       "postedDate": null,
-      "listedPostedDate": "2026-10-08",
+      "listedPostedDate": "2026-11-06",
       "effectiveDate": "2026-11-27",
       "newsStatus": "unreviewed",
       "newsUrl": null,
